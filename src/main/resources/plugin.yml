@@ -1,0 +1,21 @@
+name: PicoItemLib
+version: 0.1.5
+author: Allymonies
+main: com.omnipico.picoitemlib.PicoItemLib
+api-version: 1.16
+website: omnipico.com
+depend: [Vault]
+commands:
+  picoitem:
+    description: Base command for PicoItemLib
+    usage: /picoitem <help>
+    permission: picoitemlib.pico
+permissions:
+  picoitemlib.picoitem:
+    default: op
+    description: Allows usage of /picoitem
+  picoitemlib.*:
+    default: op
+    description: Allows access to every picoitem command.
+    children:
+      picoitemlib.picoitem: true
