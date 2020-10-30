@@ -1,10 +1,10 @@
 name: PicoItemLib
-version: 0.1.5
+version: 0.1.6
 author: Allymonies
 main: com.omnipico.picoitemlib.PicoItemLib
 api-version: 1.16
 website: omnipico.com
-depend: [Vault]
+depend: []
 commands:
   picoitem:
     description: Base command for PicoItemLib
